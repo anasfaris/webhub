@@ -1,0 +1,25 @@
+%include views/shared/header.html
+
+<!-- Place this data between the <head> tags of your website -->
+<title>{{title}}</title>
+<meta name="description" content="{{title}}" />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" value="{{title}}">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="{{title}}" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="{{title}}" />
+
+</head>
+
+<body>
+  %include views/shared/navbar.html
+  <div class="container">
+    <p>Test Page</p>
+  </div>
+  %include views/shared/footer.html
+</body>
+
+</html>

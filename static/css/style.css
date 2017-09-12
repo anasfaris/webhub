@@ -1,0 +1,128 @@
+@media screen and (max-width: 600px) {
+  #chart_desktop {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+	.twitter-typeahead .tt-input,
+	.twitter-typeahead .tt-hint {
+		margin-top: 10px;
+		margin-bottom: -10px;
+	}
+}
+
+.nav-style {
+  background-color: #425050;
+  border-color: #698280;
+  min-width: 1110px;
+	height: 50px;
+	box-shadow: 0 0 10px #808080;
+}
+
+@media (max-width:767px) {
+	.nav-style {
+    min-width: 100%;
+		height: auto;
+	}
+}
+
+.text-line {
+    font: 24px sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    z-index: 1;    
+}
+
+.text-line:before {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 15px; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+.text-line span { background: #fff; padding: 0 10px; }
+
+.text-line-ver {
+    font: 24px sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    z-index: 1;    
+}
+
+.text-line-ver:before {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 0; left: 15px; right: 0; bottom: 0;
+    height: 95%;
+    z-index: -1;
+}
+
+.text-line-ver span { background: #fff; padding: 5px 0; }
+
+.graph-btn {
+	width:960px;
+	margin: 0 auto;
+}
+
+@media (max-width:767px) {
+	.graph-btn {
+		width: 100%;
+		margin: 0 15px;
+	}
+}
+
+
+
+.modal-dialog-fs {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+@media (max-width:767px) {
+  .modal-dialog-fs {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+}
+
+.modal-content-fs {
+  height: 100%;
+  border-radius: 0;
+  color:white;
+  overflow:auto;
+}
+
+.login::-webkit-input-placeholder {
+   text-align: center;
+}
+
+
+.login::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+.login:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.signup-wrap {
+  padding: 0 15px;
+}
+
+h1 {
+  font-size: 24px;
+}
